@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+    
+    nav {
+    display: inline-block;
+    }
+    
+    a {
+    text-decoration: none;
+    }
+    
+    ul {
+    list-style: none;
+    }
+    
+    li {
+    display: inline-block;
+    margin-left: 2rem;
+    }
+    
+    section {
+    display: flex;
+    flex-direciton: row;
+    }
+    
+    .priceCard {
+    height: 200px;
+    width: 200px;
+    margin: 4em;
+    font-size: 1.3em;
+    background-color: yellow;
+    }
+    
+    .priceCard button {
+    margin-top: 1em;
+    padding: 5px 10px;
+    }
+    
+    
+    
+    
+    
