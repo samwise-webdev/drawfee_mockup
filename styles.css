@@ -1,44 +1,76 @@
-* {
+   * {
     margin: 0;
     padding: 0;
+   }
+    
+   header {
+    
     }
     
-    nav {
-    display: inline-block;
+   nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     }
     
-    a {
+   #header-img {
+    float: left;
+    }
+    
+   h1 {
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+    }
+    
+   a {
     text-decoration: none;
     }
     
-    ul {
+   ul {
     list-style: none;
     }
     
-    li {
+   li {
     display: inline-block;
-    margin-left: 2rem;
+    margin: 2rem;
     }
     
-    section {
+   #search {
+    margin-right: 2rem;
+    }
+    
+   section {
     display: flex;
-    flex-direciton: row;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     }
     
-    .priceCard {
+   h2 {
+    margin-bottom: 1rem;
+    }
+    
+   #newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+    }
+    
+   .priceCard {
     height: 200px;
     width: 200px;
     margin: 4em;
     font-size: 1.3em;
-    background-color: yellow;
+    background-color: powderblue;
+    text-align: center;
+    border-radius: .5em;
     }
     
-    .priceCard button {
+   .priceCard button {
     margin-top: 1em;
     padding: 5px 10px;
     }
-    
-    
-    
-    
-    
+   
